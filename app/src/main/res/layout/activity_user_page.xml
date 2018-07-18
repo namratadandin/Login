@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserPage">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="149dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        app:srcCompat="@drawable/us" />
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="163dp"
+        android:autoLink="web"
+        android:background="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:text="NAMRATA.S.DANDIN"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/qualification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_below="@id/user"
+        android:layout_marginTop="210dp"
+        android:text="Qualification: B.E"
+        android:textAppearance="@android:style/TextAppearance"/>
+
+    <TextView
+        android:id="@+id/facebook"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:autoLink="web"
+        android:text="Facebook:www.facebook.com"
+        android:textAppearance="@android:style/TextAppearance"/>
+
+    <TextView
+        android:id="@+id/twitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="Twitter: www.twitter.com"
+        android:textAppearance="@android:style/TextAppearance"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/designation"
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:autoLink="email"
+        android:text="Designation : Student
+        \n\n College name:  V.P DR.P.G.HALAKATTI COLLEGE OF ENGINEERING AND TECHNOLOGY
+        \n\n Residential Address: Near B.L.D.E Hospital, Vijayapur
+        \n\n Contact number: 9535193266
+        \n\n e-mail : namratadandin@gmail.com"
+        android:textAppearance="@android:style/TextAppearance"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

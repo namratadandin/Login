@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="user_name">NAMRATA.S.DANDIN</string>
+    <string name="name_user"></string>
+    <string name="pass_word">PASSWORD</string>
+    <string name="pass1"></string>
+    <string name="login_button">login</string>
+    <string name="activity_2">Second Activity</string>
+    <string name="qualification_1">Qualification : B.E</string>
+    <string name="facebook_1">Facebook:www.facebook.com</string>
+    <string name="twitter_id">Twitter:www.twitter.com</string>
+    <string name="desinatio_n">Designation : Student
+        \n\n College name:  V.P DR.P.G.HALAKATTI COLLEGE OF ENGINEERING AND TECHNOLOGY
+        \n\n Residential Address: Near B.L.D.E Hospital, Vijayapur
+        \n\n Contact number: 9535193266
+        \n\n e-mail : namratadandin@gmail.com</string>
+    <string name="user123">USER NAME</string>
+</resources>
